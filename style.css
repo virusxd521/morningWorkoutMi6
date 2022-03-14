@@ -1,0 +1,196 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Noto+Serif+Display:wght@200;400;700&display=swap");
+
+.body {
+  background-color: #2b5554;
+  background-image: url("./background.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+}
+
+.body__header {
+  margin: auto;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+  font-family: "Noto Serif Display", serif;
+}
+
+.body__navigation {
+  background-color: #163838;
+  width: 20%;
+}
+
+.navigation__logo {
+  height: 90px;
+  width: 90px;
+  margin-left: 35%;
+  margin-top: 100px;
+}
+
+.toggle_button {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 300px;
+  top: 30px;
+  background-color: #163838;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.toggle_button:hover {
+  cursor: pointer;
+}
+
+.nav__list {
+  margin-top: 20px;
+}
+
+.list__item {
+  color: white;
+  margin-left: 10px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.list__item:hover {
+  cursor: pointer;
+  background-color: #2b5554;
+}
+
+.list__item:focus {
+  background-color: #2b5554;
+}
+
+.list__item a {
+  text-decoration: none;
+  color: white;
+}
